@@ -2,6 +2,8 @@
 ## copy paste this block of code into bash and the magic will happen
 
 ```
+code .
+
 mv READMD.md LAB.md
 
 mkdir src 
