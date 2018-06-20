@@ -4,7 +4,7 @@
 ```
 code .
 
-mv READMD.md LAB.md
+mv README.md LAB.md
 
 mkdir src 
 mkdir src/__test__ 
