@@ -25,6 +25,7 @@ npm init -y
 npm i -D babel-eslint babel-preset-env babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react jest uuid nodemon superagent
 
 code .
+
 ```
 
 // this part is not your terminal/bash. you have to open the package.json file and copy paste this JSON into the scripts area. package.json scripts:
