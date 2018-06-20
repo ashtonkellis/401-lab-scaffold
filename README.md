@@ -2,8 +2,6 @@
 ## copy paste this block of code into bash and the magic will happen
 
 ```
-code .
-
 mv README.md LAB.md
 
 mkdir src 
@@ -29,6 +27,7 @@ curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/
 curl -O https://raw.githubusercontent.com/codefellows/seattle-javascript-401d25/master/00-lab-scaffold-template/index.js
 
 code .
+
 ```
 
 // this part is not your terminal/bash. you have to open the package.json file and copy paste this JSON into the scripts area. package.json scripts:
