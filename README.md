@@ -1,4 +1,5 @@
 # 401-Lab-Scaffolding Steps
+## run each of these code snippets in your terminal, and magic will happen
 
 rename the lab README.md file (contains lab instructions) to LAB.md
 ```
