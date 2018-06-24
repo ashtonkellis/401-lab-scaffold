@@ -1,5 +1,5 @@
 # 401-Lab-Scaffolding Steps
-## copy paste this block of code into bash and the magic will happen
+## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 
 ```
 mv README.md LAB.md
