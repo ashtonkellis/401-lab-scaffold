@@ -1,5 +1,5 @@
 # 401-Lab-Scaffolding Steps 
-# Last Update: Monday June 25 @ 9:45 AM
+### Last Update: Monday June 25 @ 9:45 AM
 
 ## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 ```
