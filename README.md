@@ -1,6 +1,7 @@
-# 401-Lab-Scaffolding Steps (Updated on Monday June 25!)
-## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
+# 401-Lab-Scaffolding Steps 
+# Last Update: Monday June 25 @ 9:45 AM
 
+## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 ```
 mv README.md LAB.md
 
