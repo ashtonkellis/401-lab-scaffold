@@ -12,7 +12,26 @@ touch src/main.js
 
 npm init -y
 
-npm i -D babel-eslint babel-preset-env babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react jest uuid nodemon superagent winston@next
+npm i -D babel-cli 
+npm i -D babel-eslint 
+npm i -D babel-preset-env 
+npm i -D babel-register 
+npm i -D dotenv 
+npm i -D eslint 
+npm i -D eslint-config-airbnb-base 
+npm i -D eslint-plugin-import 
+npm i -D eslint-plugin-jest 
+npm i -D eslint-plugin-react 
+npm i -D faker
+npm i -D jest 
+npm i -D uuid 
+npm i -D nodemon 
+npm i -D superagent 
+npm i -D winston@next
+
+npm i body-parser 
+npm i express 
+npm i mongoose
 
 curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
 curl -o src/__test__/fake.test.js https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/fake-test.js
@@ -32,10 +51,21 @@ code .
 
 // this part is not your terminal/bash. you have to open the package.json file and copy paste this JSON into the scripts area. package.json scripts:
 ```
-    "lint": "eslint **/.js",
-    "testWatch": "jest --coverage --watchAll",
+// add this snipped of json to add a pointer to the environment variables for testing
+  "jest": {
+    "setupFiles": [
+      "<rootDir>/src/__test__/lib/test.env.js"
+    ]
+  },
+ 
+// Scripts
+    "dev-start": "nodemon index.js",
     "test": "eslint . && jest --coverage",
-    "test-nolint": "jest --coverage",
-    "dev-start": "node index.js",
-    "start": "node index.js"
+    "testWatch": "jest --coverage --watchAll",
+    "test-nolint": "jest --coverage --detectOpenHandles --forceExit --runInBand",
+    "lint": "eslint .",
+    "dbon": "mkdir -p ./db && mongod --dbpath ./db",
+    "dboff": "killall mongod",
+    "build": "babel src -d build",
+    "start": "npm run build && node index.js"
 ```
