@@ -1,4 +1,4 @@
-# 401-Lab-Scaffolding Steps
+# 401-Lab-Scaffolding Steps (Updated on Monday June 25!)
 ## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 
 ```
