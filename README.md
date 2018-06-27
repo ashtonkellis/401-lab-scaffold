@@ -54,7 +54,7 @@ code .
 this part is not your terminal/bash. 
 you have to open the package.json file and copy paste this JSON directly nested in the object
 ```
-// add this snipped of json to add a pointer to the environment variables for testing
+// add this snippet of json to add a pointer to the environment variables for testing
   "jest": {
     "setupFiles": [
       "<rootDir>/src/__test__/lib/test.env.js"
