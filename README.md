@@ -14,27 +14,9 @@ touch src/main.js
 
 npm init -y
 
-npm i -D babel-cli 
-npm i -D babel-eslint 
-npm i -D babel-preset-env 
-npm i -D babel-register 
-npm i -D dotenv 
-npm i -D eslint 
-npm i -D eslint-config-airbnb-base 
-npm i -D eslint-plugin-import 
-npm i -D eslint-plugin-jest 
-npm i -D eslint-plugin-react 
-npm i -D faker
-npm i -D jest 
-npm i -D uuid 
-npm i -D nodemon 
-npm i -D superagent 
-npm i -D winston@next
+npm i -D babel-cli babel-eslint babel-preset-env babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react faker jest uuid nodemon superagent winston@next
 
-npm i cors
-npm i express
-npm i http-errors
-npm i mongoose
+npm i cors express http-errors mongoose
 
 curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
 curl -o src/__test__/fake.test.js https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/fake-test.js
