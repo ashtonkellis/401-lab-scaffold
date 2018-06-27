@@ -7,6 +7,7 @@ mv README.md LAB.md
 
 mkdir src 
 mkdir src/__test__ 
+mkdir src/__test__/lib
 mkdir src/lib
 
 touch src/main.js 
