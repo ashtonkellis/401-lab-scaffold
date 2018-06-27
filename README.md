@@ -1,5 +1,5 @@
 # 401-Lab-Scaffolding Steps 
-### Last Update: Monday June 25 @ 9:45 AM
+### Last Update: Wednesday June 27 @ 9:45 AM
 
 ## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 ```
@@ -30,8 +30,9 @@ npm i -D nodemon
 npm i -D superagent 
 npm i -D winston@next
 
-npm i body-parser 
-npm i express 
+npm i cors
+npm i express
+npm i http-errors
 npm i mongoose
 
 curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
@@ -50,7 +51,8 @@ code .
 
 ```
 
-// this part is not your terminal/bash. you have to open the package.json file and copy paste this JSON into the scripts area. package.json scripts:
+this part is not your terminal/bash. 
+you have to open the package.json file and copy paste this JSON directly nested in the object
 ```
 // add this snipped of json to add a pointer to the environment variables for testing
   "jest": {
@@ -58,7 +60,11 @@ code .
       "<rootDir>/src/__test__/lib/test.env.js"
     ]
   },
- 
+```
+
+this part is not your terminal/bash. 
+you have to open the package.json file and copy paste this JSON into the scripts area. package.json scripts: 
+```
 // Scripts
     "dev-start": "nodemon index.js",
     "test": "eslint . && jest --coverage",
