@@ -34,7 +34,7 @@ code .
 this part is not your terminal/bash. 
 you have to open the package.json file and copy paste this JSON directly nested in the object
 ```
-    "scripts": {
+  "scripts": {
     "dev-start": "nodemon index.js",
     "test": "eslint . && jest --coverage",
     "testWatch": "jest --coverage --watchAll",
