@@ -1,5 +1,5 @@
 # 401-Lab-Scaffolding Steps 
-### Last Update: Wednesday June 27 @ 9:45 AM
+### Last Update: Monday July 1 @ 9:30 AM
 
 ## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 ```
@@ -14,7 +14,7 @@ touch src/main.js
 
 npm init -y
 
-npm i -D babel-cli babel-eslint babel-preset-env babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react faker jest uuid nodemon superagent winston@next
+npm i -D babel-cli babel-eslint babel-preset-env babel-preset-stage-2 babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react faker jest uuid nodemon superagent winston@next
 
 npm i cors express http-errors mongoose
 
