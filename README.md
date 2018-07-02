@@ -16,7 +16,7 @@ npm init -y
 
 npm i -D babel-cli babel-eslint babel-preset-env babel-preset-stage-2 babel-register dotenv eslint eslint-config-airbnb-base eslint-plugin-import eslint-plugin-jest eslint-plugin-react faker jest uuid nodemon superagent winston@next
 
-npm i cors express http-errors mongoose
+npm i bcrypt cors express http-errors jsonwebtoken mongoose 
 
 curl -o README.md https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/readme-template.md
 curl -o src/__test__/fake.test.js https://raw.githubusercontent.com/ashtonkellis/401-Lab-Scaffolding/master/fake-test.js
