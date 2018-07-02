@@ -51,7 +51,7 @@ you have to open the package.json file and copy paste this JSON directly nested 
     "express": "^4.16.3",
     "http-errors": "^1.6.3",
     "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.1.8"
+    "mongoose": "^5.1.6"
   },
  "devDependencies": {
     "babel-cli": "^6.26.0",
