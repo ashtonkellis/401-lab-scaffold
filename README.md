@@ -9,6 +9,7 @@ mkdir src
 mkdir src/temp
 mkdir src/__test__ 
 mkdir src/__test__/lib
+mkdir src/__test__/assets
 mkdir src/lib
 
 touch src/main.js 
