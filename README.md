@@ -1,11 +1,12 @@
 # 401-Lab-Scaffolding Steps 
-### Last Update: Monday July 1 @ 9:30 AM
+### Last Update: Monday July 4 @ 10:00 AM
 
 ## CD into your repo, then copy-paste this block of code into your terminal and the magic will happen
 ```
 mv README.md LAB.md
 
-mkdir src 
+mkdir src
+mkdir src/temp
 mkdir src/__test__ 
 mkdir src/__test__/lib
 mkdir src/lib
@@ -36,7 +37,7 @@ you have to open the package.json file and copy paste this JSON directly nested 
 ```
   "scripts": {
     "dev-start": "nodemon index.js",
-    "test": "eslint . && jest --coverage",
+    "test": "eslint . --fix && jest --coverage --detectOpenHandles --forceExit --runInBand",
     "testWatch": "jest --coverage --watchAll",
     "test-nolint": "jest --coverage --detectOpenHandles --forceExit --runInBand",
     "lint": "eslint .",
@@ -46,14 +47,19 @@ you have to open the package.json file and copy paste this JSON directly nested 
     "start": "npm run build && node index.js"
   },
   "dependencies": {
+    "aws-sdk": "^2.268.1",
+    "babel-polyfill": "^6.26.0",
     "bcrypt": "^2.0.1",
     "cors": "^2.8.4",
     "express": "^4.16.3",
+    "fs-extra": "^6.0.1",
     "http-errors": "^1.6.3",
     "jsonwebtoken": "^8.3.0",
-    "mongoose": "^5.1.6"
+    "mongoose": "^5.1.6",
+    "multer": "^1.3.1"
   },
  "devDependencies": {
+    "aws-sdk-mock": "^4.0.0",
     "babel-cli": "^6.26.0",
     "babel-eslint": "^8.2.5",
     "babel-preset-env": "^1.7.0",
